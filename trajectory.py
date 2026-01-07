@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 # Initialize the GenAI client and specify the model
 MODEL_ID = "gemini-robotics-er-1.5-preview"
-client = genai.Client(api_key="AIzaSyCOJjSo9ZoWRy4haWRVBi0ghC2LSll8JcA")
+client = genai.Client(api_key="")
 # Load your image and set up your prompt
 with open('/home/dev/VLM/Screenshot from 2025-11-12 18-10-24.png', 'rb') as f:
     image_bytes = f.read()
