@@ -7,7 +7,7 @@ import io
 
 # Initialize the GenAI client and specify the model
 MODEL_ID = "gemini-robotics-er-1.5-preview"
-client = genai.Client(api_key="AIzaSyCOJjSo9ZoWRy4haWRVBi0ghC2LSll8JcA")
+client = genai.Client(api_key="")
 
 # Load your image and set up your prompt
 with open('/home/dev/VLM/scene.jpg', 'rb') as f:
