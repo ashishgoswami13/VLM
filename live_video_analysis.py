@@ -8,7 +8,7 @@ import json
 
 # Initialize the GenAI client and specify the model
 MODEL_ID = "gemini-robotics-er-1.5-preview"
-client = genai.Client(api_key="AIzaSyCOJjSo9ZoWRy4haWRVBi0ghC2LSll8JcA")
+client = genai.Client(api_key="")
 
 def capture_video(duration=10, output_path="temp_video.mp4"):
     """
